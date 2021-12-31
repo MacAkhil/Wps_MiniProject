@@ -1,0 +1,61 @@
+.navbar{
+    /*background: linear-gradient( to right,rgb(60, 54, 146), rgb(223, 45, 45));*/
+    background-color: rgb(60, 54, 146);   
+    padding: 10px 30px;
+}
+.navbar a:hover,a:focus,a:active{
+    color:white;
+}
+.payment{
+    margin:160px 100px;
+}
+@media screen and (max-width: 576px){
+    .payment{
+        margin:20px;
+    }
+    .tag{
+        margin-top:100px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .payment{
+        margin: 50px 70px;
+    }
+    .tag{
+        margin:100px 50px 50px 50px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .payment{
+        margin: 50px 50px;
+    }
+    .tag{
+        margin:100px 50px 50px 50px;
+    }
+}
+.mytable{
+    border-color:rgb(60, 54, 146);
+    border:1px;
+    border-style:double;
+    border-radius:10px;
+    margin:50px;
+    padding:40px;
+}
+table{
+    width:80%;
+    height:200px;
+}
+table,td{
+    font-size: 20px;
+    padding:10px;
+}
+#print{
+    position: absolute;
+    right:90px;
+    padding: 5px 15px;
+    cursor: pointer;
+    color:white;
+    border:0;
+    border-radius: 20px;
+    background-color: rgb(60, 54, 146);
+}

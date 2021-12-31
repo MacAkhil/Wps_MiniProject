@@ -1,0 +1,67 @@
+.navbar{
+    /*background: linear-gradient( to right,rgb(60, 54, 146), rgb(223, 45, 45));*/
+    background-color: rgb(60, 54, 146);   
+    padding: 10px 30px;
+}
+.navbar a:hover,a:focus,a:active{
+    color:white;
+}
+.jumbotron{
+    border-radius: 0;
+    /*background: linear-gradient( rgb(60, 54, 146),white);*/
+    background-color: white;
+}
+@media screen and (max-width: 576px){
+    #offer{
+        margin:20px;
+    }
+}
+@media screen and (min-width: 577px){
+    #offer{
+        margin: 50px 70px;
+    }
+}
+#offer{
+    background-color:rgb(243, 243, 243);
+    border-radius: 50px;
+    padding: 50px 20px;
+    min-height: 400px;
+    /*font-family:'Georgia', serif; */
+}
+.bookbtn{
+    /*background: linear-gradient( to right,rgb(60, 54, 146), rgb(223, 45, 45));*/
+    background-color: rgb(60, 54, 146);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bookbtn:hover, .bookbtn:focus, .bookbtn:active{
+    background-color: rgb(41, 37, 100);
+    color: white;
+}
+body{
+    padding: 50px 0px 0px 0px;
+    z-index:0;
+}
+.footer {
+	position: absolute;
+	width:100%;
+	background-color: rgb(60, 54, 146);
+	color:white;
+	margin: 0;
+	padding: 20px 0px;
+}
+footer a{
+    color:white;
+}
+footer .list-unstyled a:hover,a:focus,a:active{
+    list-style-type: none;
+    color:slategray;
+    text-decoration: none;
+}
+footer .icons {
+    background-color: white;
+}
+.footer .icons .links a:hover{
+    background-color: rgb(181, 178, 228);
+}

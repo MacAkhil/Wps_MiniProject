@@ -1,0 +1,65 @@
+.navbar{
+    /*background: linear-gradient( to right,rgb(60, 54, 146), rgb(223, 45, 45));*/
+    background-color: rgb(60, 54, 146);   
+    padding: 10px 30px;
+}
+.navbar a:hover,a:focus,a:active{
+    color:white;
+}
+.jumbotron{
+    background-color: white;
+    font-size: 3.5rem;
+    height:100px;
+    padding: 100px;
+    margin-top: 60px;
+    color:rgb(60, 54, 146);
+}
+.contact p{
+    font-size: 30px;
+    color:rgb(60, 54, 146);
+}
+.form-group{
+    margin:20px 0px;
+}
+.contact input{
+    margin:10px 0px;
+    padding:8px;
+    width:90%;
+}
+.contact .submit{
+    background-color: rgba(60, 54, 146,0.8);
+    border-radius: 5px;
+    padding:10px;
+    color:white;
+}
+.add{
+    margin-top: 100px;
+}
+.add h4,address{
+    font-size:large;
+    padding:10px;
+}
+.footer {
+	position: absolute;
+	width:100%;
+	background-color: rgb(60, 54, 146);
+	color:white;
+	margin: 160px 0 0 0;
+    padding: 20px 0px;
+}
+footer a{
+    color:white;
+}
+footer .list-unstyled a:hover,a:focus,a:active{
+    list-style-type: none;
+    color:slategray;
+    text-decoration: none;
+}
+footer .icons {
+    background-color: white;
+}
+.footer .icons .links a:hover{
+    background-color: rgb(181, 178, 228);
+}
+
+

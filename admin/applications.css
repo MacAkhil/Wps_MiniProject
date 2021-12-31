@@ -1,0 +1,41 @@
+.navbar{
+    /*background: linear-gradient( to right,rgb(60, 54, 146), rgb(223, 45, 45));*/
+    background-color: rgb(60, 54, 146);   
+    padding: 10px 30px;
+}
+.navbar a:hover,a:focus,a:active{
+    color:white;
+}
+#users{
+    width:100%;
+    margin:100px auto;
+}
+table,th,td{
+    padding:20px 20px 20px 0px;
+    margin:0px 10px 10px 0px;
+}
+table a{
+    text-decoration:none;
+    color:black;
+}
+table a:hover,a:active,a:focus{
+    text-decoration: underline;
+    text-decoration-color: rgb(60, 54, 146);
+    color: rgb(60, 54, 146);
+}
+.head{
+    font-size:1.2rem;
+    color:rgb(60, 54, 146);
+}
+#g{
+    text-align: center;
+}
+h4{
+    padding:10px 20px 0px 20px;
+    border:none;
+    border-right:none;
+    color:black;
+}
+h5{
+    padding:10px 20px 0px 20px;
+}

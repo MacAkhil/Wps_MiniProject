@@ -1,0 +1,28 @@
+.navbar{
+    /*background: linear-gradient( to right,rgb(60, 54, 146), rgb(223, 45, 45));*/
+    background-color: rgb(60, 54, 146);   
+    padding: 10px 30px;
+}
+.navbar a:hover,a:focus,a:active{
+    color:white;
+}
+.a{
+    margin:120px auto;
+    width:70%;
+}
+form{
+    padding:40px;
+    margin:10px;
+}
+.form-group{
+    padding:5px;
+    margin:10px;
+}
+#apply{
+    background-color: rgb(60, 54, 146);
+    border-radius: 15px;
+    margin-left:20px;
+    padding:10px 20px;
+    color:white;
+    border:none;
+}

@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box
+}
+.navbar{
+    /*background: linear-gradient( to right,rgb(60, 54, 146), rgb(223, 45, 45));*/
+    background-color: rgb(60, 54, 146);   
+    padding: 10px 30px;
+}
+.navbar a:hover,a:focus,a:active{
+    color:white;
+}
+.tab img{
+    width:100px;
+    height:130px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom:6px;
+  margin-top:15px;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+.orders, .rewards{
+    overflow-y: scroll;
+    height: 480px;
+}
+table{
+    width:80%;
+    height:300px;
+}
+table,td{
+    padding:10px 20px;
+}
+/* Style the tab */
+.page{
+    margin-left: 8rem;
+}
+.tab {
+    float: left;
+    width: 23%;
+    border: 1px solid #ccc;
+    margin-top:40px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    /*background-color: rgba(60, 54, 146,0.7);*/
+}
+/* Style the buttons inside the tab */
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 18px;
+    width: 100%;
+    border:none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+/* Style the tab content */
+#my, #order, #reward, #support, #joinus{
+    padding:40px;
+}
+.tabcontent {
+    float: left;
+    width: 77%;
+    margin:0;
+    height: 585px;
+}
+h6{
+    /*background: linear-gradient( to right,rgb(60, 54, 146),rgba(60, 54, 146,0.5), white);*/
+    background-color: #f1f1f1;
+    padding:10px 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-right:none;
+    color:black;
+    font-size:17px;
+}
+.block {
+    opacity: 0.5;
+    padding: 20px;
+
+}
+.block input{
+    width:100%;
+    padding:10px;
+    border-radius: 10px;
+}
+/*SUPPORT*/
+.collapsed:hover{
+    text-decoration: none;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-size: 1.3rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: black;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+.footer {
+	position: absolute;
+	width:100%;
+	background-color: rgb(60, 54, 146);
+	color:white;
+	margin: 0;
+	padding: 20px 0px;
+}
+footer a{
+    color:white;
+}
+footer .list-unstyled a:hover,a:focus,a:active{
+    list-style-type: none;
+    color:slategray;
+    text-decoration: none;
+}
+footer .icons {
+    background-color: white;
+}
+.footer .icons .links a:hover{
+    background-color: rgb(181, 178, 228);
+}

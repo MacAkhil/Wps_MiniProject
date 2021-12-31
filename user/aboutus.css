@@ -1,0 +1,77 @@
+.navbar{
+    /*background: linear-gradient( to right,rgb(60, 54, 146), rgb(223, 45, 45));*/
+    background-color: rgb(60, 54, 146);   
+    padding: 10px 30px;
+}
+.navbar a:hover,a:focus,a:active{
+    color:white;
+}
+body{
+    padding: 50px 0px 0px 0px;
+    z-index:0;
+}
+#about{
+    margin:120px 70px 200px 70px;
+}
+.fuel{
+    margin:50px 0px 0px 20px;
+    padding:20px;
+}
+h4{
+    font-size:xx-large;
+    color:rgb(60, 54, 146);
+}
+p{
+    font-size:large;
+}
+.fuel h4,p{
+    margin:0px 20px;
+    padding:10px;
+}
+.fuel img{
+    float:right;
+    width:450px;
+    height:250px;
+    border-radius:10px;
+}
+.fcontent{
+    background: linear-gradient(335deg, #ffffff 50%, rgba(60, 54, 146,0.1) 50%);
+}
+.mcontent{
+    background: linear-gradient(152deg, #ffffff 50%, rgba(60, 54, 146,0.1) 50%);
+}
+.mechanic{
+    margin-top:50px;
+}
+.mechanic h4{
+    margin-left:25px;
+}
+.mechanic img{
+    float:left;
+    width:480px;
+    height:300px;
+}
+.footer {
+	position: absolute;
+	width:100%;
+	background-color: rgb(60, 54, 146);
+	color:white;
+	margin: 0;
+    padding: 20px 0px;
+}
+footer a{
+    color:white;
+}
+footer .list-unstyled a:hover,a:focus,a:active{
+    list-style-type: none;
+    color:slategray;
+    text-decoration: none;
+}
+footer .icons {
+    background-color: white;
+}
+.footer .icons .links a:hover{
+    background-color: rgb(181, 178, 228);
+}
+
+
